@@ -276,3 +276,137 @@ footer {
     padding: 10px 20px;
   }
 }
+  
+/* footer */
+
+/* Subscribe Section */
+.subscribe-section {
+  background: url(../assets/news-letter-bg.png) center/cover no-repeat;
+  text-align: center;
+  padding: 100px 20px;
+  color: white;
+  position: relative;
+}
+
+.subscribe-overlay {
+  max-width: 800px;
+  margin: auto;
+}
+
+.subscribe-overlay h2 {
+  font-size: 36px;
+  font-family: "Noto Serif", serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.subscribe-form input {
+  padding: 10px 20px;
+  width: 300px;
+  border: none;
+  border-radius: 4px;
+}
+
+.subscribe-form button {
+  background-color: #E95A08;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Footer Section */
+.site-footer {
+  background-color: white;
+  padding: 60px 50px;
+  color: #333;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-brand {
+  max-width: 300px;
+}
+
+.footer-logo {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 50px;
+  flex: 2;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.footer-social {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.footer-social a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  color: #E95A08;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .subscribe-overlay h2 {
+    font-size: 24px;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .subscribe-form input {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-social {
+    margin-top: 20px;
+  }
+}
